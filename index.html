@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Disney+ Hotstar Clone</title>
+    <link rel="shortcut icon" href="https://secure-media.hotstar.com/web-assets/prod/D+H_favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <img src="https://secure-media.hotstarext.com/web-assets/prod/images/brand-logos/disney-hotstar-logo-dark.svg" alt="" />
+        <ul class="nav-links">
+            <li class="nav-items"><a href="#">TV</a></li>
+            <li class="nav-items"><a href="#">movies</a></li>
+            <li class="nav-items"><a href="#">sports</a></li>
+            <li class="nav-items"><a href="#">disney+</a></li>
+            <div class="iconClass"></div>
+        </ul>
+
+        <div class="right-container">
+            <input type="text" class="search-box" placeholder="search" />
+            <button class="sub-btn">subscribe</button>
+            <a href="#" class="login-link">login</a>
+        </div>
+    </nav>
+
+    <div class="carousel-container">
+        <div class="carousel">
+            <!--	<div class="slider">
+					<div class="slide-content">
+						<h1 class="movie-title">loki</h1>
+						<p class="movie-des">
+							The mercurial villain Loki resumes his role as the God of Mischief
+							in a new series that takes place after the events of "Avengers
+							Endgame."
+						</p>
+					</div>
+					<img src="images/slider 1.PNG" alt="" />
+				</div>-->
+        </div>
+    </div>
+
+    <div class="video-card-container">
+        <div class="video-card">
+            <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891149/My%20Projects/Hotstar%20Clone/Images/disney_khy87y.png" class="video-card-image" alt="" />
+            <video src="https://res.cloudinary.com/ddtzx1ohw/video/upload/v1660891037/My%20Projects/Hotstar%20Clone/Videos/disney_vcssdm.mp4" mute loop class="card-video"></video>
+        </div>
+
+        <div class="video-card">
+            <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891149/My%20Projects/Hotstar%20Clone/Images/pixar_ebruil.png" class="video-card-image" alt="" />
+            <video src="https://res.cloudinary.com/ddtzx1ohw/video/upload/v1660891036/My%20Projects/Hotstar%20Clone/Videos/pixar_jjrys1.mp4" mute loop class="card-video"></video>
+        </div>
+
+        <div class="video-card">
+            <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891149/My%20Projects/Hotstar%20Clone/Images/geographic_v8t3is.png" class="video-card-image" alt="" />
+            <video src="https://res.cloudinary.com/ddtzx1ohw/video/upload/v1660891037/My%20Projects/Hotstar%20Clone/Videos/geographic_skxprj.mp4" mute loop class="card-video"></video>
+        </div>
+
+        <div class="video-card">
+            <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891149/My%20Projects/Hotstar%20Clone/Images/marvel_ocwqqo.png" class="video-card-image" alt="" />
+            <video src="https://res.cloudinary.com/ddtzx1ohw/video/upload/v1660891037/My%20Projects/Hotstar%20Clone/Videos/marvel_kc1ylx.mp4" mute loop class="card-video"></video>
+        </div>
+
+        <div class="video-card">
+            <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891152/My%20Projects/Hotstar%20Clone/Images/star-wars_js1o6s.png" class="video-card-image" alt="" />
+            <video src="https://res.cloudinary.com/ddtzx1ohw/video/upload/v1660891036/My%20Projects/Hotstar%20Clone/Videos/star-war_zll699.mp4" mute loop class="card-video"></video>
+        </div>
+    </div>
+
+    <h1 class="title">recommended for you</h1>
+
+    <div class="movies-list">
+        <button class="pre-btn" title="btn">
+            <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891151/My%20Projects/Hotstar%20Clone/Images/pre_uyzcif.png" alt="" />
+        </button>
+        <button class="nxt-btn" title="btn">
+            <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891149/My%20Projects/Hotstar%20Clone/Images/nxt_aycr2b.png" alt="" />
+        </button>
+        <div class="card-container">
+            <div class="card">
+                <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891150/My%20Projects/Hotstar%20Clone/Images/poster_1_yzcan9.png" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">Loki</h2>
+                    <h6 class="des">Action-adventure fiction Superhero</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891150/My%20Projects/Hotstar%20Clone/Images/poster_2_ydpbxs.png" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">Mulan</h2>
+                    <h6 class="des">Action Drama</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891149/My%20Projects/Hotstar%20Clone/Images/poster_3_lcpn3d.png" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">The Falcon and The Winter Soldier</h2>
+                    <h6 class="des">Action-adventure fiction Superhero</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891150/My%20Projects/Hotstar%20Clone/Images/poster_4_azr0mg.png" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">Avengers:Endgame</h2>
+                    <h6 class="des">Superhero Sci-fi</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891150/My%20Projects/Hotstar%20Clone/Images/poster_5_bavqvj.png" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">Thor:Ragnarok</h2>
+                    <h6 class="des">Superhero Sci-fi</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891151/My%20Projects/Hotstar%20Clone/Images/poster_6_sh9nx0.png" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">Avengers</h2>
+                    <h6 class="des">Superhero Sci-fi</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891150/My%20Projects/Hotstar%20Clone/Images/poster_7_c6pnhj.png" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">Pirates of the Caribbean - Salazar's Revenge</h2>
+                    <h6 class="des">Action, Fantasy</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891150/My%20Projects/Hotstar%20Clone/Images/poster_8_txb9ld.png" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891150/My%20Projects/Hotstar%20Clone/Images/poster_9_pfauim.png" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891151/My%20Projects/Hotstar%20Clone/Images/poster_10_srykoq.png" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891151/My%20Projects/Hotstar%20Clone/Images/poster_11_dyweel.png" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891151/My%20Projects/Hotstar%20Clone/Images/poster_12_vbb08x.png" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="title">popular shows</h1>
+
+    <div class="movies-list">
+        <button class="pre-btn" title="btn">
+            <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891151/My%20Projects/Hotstar%20Clone/Images/pre_uyzcif.png" alt="" />
+        </button>
+        <button class="nxt-btn" title="btn">
+            <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891149/My%20Projects/Hotstar%20Clone/Images/nxt_aycr2b.png" alt="" />
+        </button>
+        <div class="card-container">
+            <div class="card">
+                <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891151/My%20Projects/Hotstar%20Clone/Images/poster_12_vbb08x.png" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891151/My%20Projects/Hotstar%20Clone/Images/poster_11_dyweel.png" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891151/My%20Projects/Hotstar%20Clone/Images/poster_10_srykoq.png" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891150/My%20Projects/Hotstar%20Clone/Images/poster_9_pfauim.png" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891150/My%20Projects/Hotstar%20Clone/Images/poster_8_txb9ld.png" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891150/My%20Projects/Hotstar%20Clone/Images/poster_7_c6pnhj.png" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891151/My%20Projects/Hotstar%20Clone/Images/poster_6_sh9nx0.png" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891150/My%20Projects/Hotstar%20Clone/Images/poster_5_bavqvj.png" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891150/My%20Projects/Hotstar%20Clone/Images/poster_4_azr0mg.png" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891149/My%20Projects/Hotstar%20Clone/Images/poster_3_lcpn3d.png" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891150/My%20Projects/Hotstar%20Clone/Images/poster_2_ydpbxs.png" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891150/My%20Projects/Hotstar%20Clone/Images/poster_1_yzcan9.png" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="title">latest & trending</h1>
+
+    <div class="movies-list">
+        <button class="pre-btn" title="btn">
+            <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891151/My%20Projects/Hotstar%20Clone/Images/pre_uyzcif.png" alt="" />
+        </button>
+        <button class="nxt-btn" title="btn">
+            <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891149/My%20Projects/Hotstar%20Clone/Images/nxt_aycr2b.png" alt="" />
+        </button>
+        <div class="card-container">
+            <div class="card">
+                <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/244/1280244-v-58d850cbecc4" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/3195/1263195-v-b44cc0202665" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/3455/1283455-v-6883176a7972" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/1901/1231901-v-17c820e1cbe4" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/4158/1254158-v-8293462a94f2" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://res.cloudinary.com/ddtzx1ohw/image/upload/v1660891149/My%20Projects/Hotstar%20Clone/Images/poster_3_lcpn3d.png" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/9317/1269317-v-c851767a526b" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/1518/1161518-v-8d86a7ed8500" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/4965/1094965-v-185c17cd9ace" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/3017/1083017-v-4ab3c2456f2a" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/2213/1042213-v-1416e8e25397" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/2733/1122733-v-5df3bdae2d7a" class="card-img" alt="" />
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js" async></script>
+</body>
+
+</html>
